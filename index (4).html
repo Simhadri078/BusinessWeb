@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hennartica</title>
+    <style>
+        body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('pexels-laura-james-6101958.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: #af7f29;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+
+header h1{
+    margin-left: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+#home{
+    background-image: url('pexels-alena-darmel-7176390.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.colorbox{
+    color: black;
+    margin-top: 400px;
+    font-size: 1.5rem;
+    background-color: rgb(255, 255, 255,0.4);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    font-style: italic;
+}
+
+.flexbox{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item img{
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.item2 img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+.item,.item2{
+    /*width:400px;
+    height: 400px;*/
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    
+}
+.item{
+    width: 350px;
+    height: 400px;
+    margin-bottom: 10px;
+}
+.item2{
+    width: 330px;
+    height: 350px;
+    margin-bottom: 20px;
+}
+
+#about h1{
+    font-size: 2rem;
+    color: #af7f29;
+}
+
+#about p{
+    text-align: justify;
+}
+
+#contact{
+    background-color: rgb(1, 1, 1,0.9);
+    color: white;
+}
+
+#contact a{
+    text-decoration: none;
+    color: white;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hennartica</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="colorbox">
+        <h2>Welcome to Our Business</h2>
+        <p>Discover the artistry of mehndi</p>
+    </div>
+    </section>
+    <hr>
+    <section id="services">
+        <h1 style="font-size: 2rem; color: #af7f29;">Services</h1>
+        <div class="service1">
+            <h1>Mehendi Art</h1>
+            <div class="flexbox">
+                <div class="item">
+                    <img src="bridal.jpeg" alt="Bridal Mehendi">
+                    <h2>Bridal Mehendi</h2>
+                </div>
+                <div class="item">
+                    <img src="festive.jpg" alt="festival special">
+                    <h2>Festive Mehendi</h2>
+                </div>
+                <div class="item">
+                    <img src="simple.jpeg" alt="simple designs">
+                    <h2>Simple Mehendi Designs</h2>
+                </div>
+            </div>
+        </div>
+        <div class="service2">
+            <h1>Organic Henna Products</h1>
+            <div class="flexbox">
+                <div class="item2">
+                    <img src="ohc.jpg" alt="Organic cones">
+                    <h2>Organic henna cones</h2>
+                </div>
+                <div class="item2">
+                    <img src="rnc.jpg" alt="red nail cones">
+                    <h2>Red Nail Cones</h2>
+                </div>
+                <div class="item2">
+                    <img src="bhp.jpg" alt="henna powder">
+                    <h2>Black Henna Powder</h2>
+                </div>
+                </div>
+                <div class="flexbox">
+                <div class="item2">
+                    <img src="hs.jpeg" alt="henna sealant">
+                    <h2>Henna Sealant</h2>
+                </div>
+                <div class="item2">
+                    <img src="aco.png" alt="after care oil">
+                    <h2>After Care Oil</h2>
+                </div>
+                <div class="item2">
+                    <img src="mt.jpg" alt="mefix tape">
+                    <h2>Mefix Tape</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="about">
+        <h1>About Us</h1>
+        <p>Welcome to Hennartica, where the timeless art of mehndi comes to life with passion and creativity. Our journey began with a deep appreciation for the intricate beauty of mehendi, and we've dedicated ourselves to sharing this ancient form of body art with the world.</p>
+    
+        <p>At Hennartica, we specialize in creating stunning mehendi designs that celebrate various occasions. From the elegance of Bridal Mehendi to the joyous spirit of Festive Mehendi and the simplicity of everyday designs, our artists bring a blend of tradition and innovation to each creation.</p>
+    
+        <p>Complementing our artistic services, we offer a range of high-quality Organic Henna Products. Our organic henna cones, red nail cones, black henna powder, henna sealant, aftercare oil, and mefix tape are carefully crafted to enhance your mehendi experience, ensuring vibrant colors and long-lasting designs.</p>
+    
+        <p>At Hennartica, we believe in the power of mehendi to tell stories, express emotions, and add a touch of beauty to life's special moments. Join us in the celebration of artistry and tradition.</p>
+    </section>
+    <section id="contact">
+        <h1>Contact Us</h1>
+        <p>Connect with us for inquiries and updates:</p>
+    
+        <div class="contact-info">
+            <p>Follow us on Instagram: <a href="https://www.instagram.com/hennartica" target="_blank">@hennartica</a></p>
+            <p>Call us: <span>+1 (555) 123-4567</span></p>
+            <p>Email us: <a href="mailto:info@hennartica.com">info@hennartica.com</a></p>
+        </div>
+    </section>
+    
+    <!-- Other sections (services, about us, contact) go here -->
+
+    <!--<footer>
+        <p>&copy; 2023 Your Business Name. All rights reserved.</p>
+    </footer>*/-->
+</body>
+</html>
